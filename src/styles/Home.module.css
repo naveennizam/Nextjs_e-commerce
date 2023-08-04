@@ -1,0 +1,111 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+#maindiv{
+  display: flex;
+  margin: 1rem;
+  padding: 10px 200px ;
+  justify-content: space-around;
+
+}
+#maindiv2{
+  display: inline-block;
+  padding: 20px;
+  margin-top: 70px;
+  
+}
+#maindiv2 > button{
+  display: inline-block;
+  padding: 10px 60px;
+  background: #000;
+}
+#maindiv1{
+  display: inline-block;
+}
+.mainonefront {
+  background-color: tan;
+}
+.onefront {
+  text-decoration: none;
+  color: black;
+  
+}
+.onefront:hover {
+  text-decoration: none;
+  color: black;
+  
+}
+#para {  /* paragraph */ 
+  padding: 0;
+  margin: 0;
+}
+
+#price {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 800;
+  font-style: italic;
+
+}
+
+#maindivbt{
+  display: flex;
+  margin: 2rem 0rem;
+  justify-content: space-around;
+
+}
+  /* quantity in red */
+.container {
+  position: relative;
+}
+
+.cartbutton {
+  float: right;
+  margin: 12px 15px 0 0;
+}
+.cart-button > img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    color: #888;
+  
+}
+.cartqty{
+  background: #ff5252;
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+  font-size: 0.8em;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  right: 10px;
+  height: 17px;
+  width: 17px;
+  /* quantity in red */
+
+}
+#bt  { /* button size of icreament decrement*/
+  padding: 2px 20px;
+ border: none;
+ border-radius: 5px;
+ }
+ 
+
+.logo {   /* gul Ahmed logo*/
+filter: brightness(0) invert(1);
+transition: all .5s;
+}
+
+
+
+
+
+

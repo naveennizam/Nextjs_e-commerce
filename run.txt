@@ -1,0 +1,19 @@
+next run dev
+
+1. unStictch.js
+2. src/pages/api/  onepiece.js     (backend  frontend)
+3. src/pages/   onefront.js        (frontend of one piece)
+4. onepiece-unstitch               (database)
+5.getslug                          (backend of [slug].js)
+6. [slug].js                       (get one item)
+
+
+
+
+
+CONNECTION AND USER ARE SQL
+
+login then go (profile)
+SignUp to go (onefront)
+signOut to go mainpage
+SignOut from profile button it goes on login page
